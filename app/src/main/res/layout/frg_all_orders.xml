@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/order_back" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <com.sak.ultilviewlib.UltimateRefreshView
+
+      android:visibility="gone"
+
+        android:id="@+id/refreshView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--<ScrollView-->
+            <!--android:id="@+id/scrollview"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:fillViewport="true"-->
+            <!--android:scrollbars="none">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical">-->
+
+                <ListView
+                    android:scrollbars="none"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:divider="@null" android:background="@color/order_back"
+                    android:id="@+id/rv_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fadingEdge="none"/>
+
+            <!--</LinearLayout>-->
+        <!--</ScrollView>-->
+    </com.sak.ultilviewlib.UltimateRefreshView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@drawable/list_wu"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/dp_100"
+           />
+
+
+    </LinearLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">万仓生活</string>
+
+
+    <array name="no_expand_titles">
+        <item>全部</item>
+        <item>代付款</item>
+        <item>待发货</item>
+
+        <item>待收货</item>
+
+        <item>待使用</item>
+
+    </array>
+    <string name="title_activity_act_store_manage">ActStoreManage</string>
+
+
+</resources>

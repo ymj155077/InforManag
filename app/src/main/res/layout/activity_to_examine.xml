@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <!--审核中-->
+    <LinearLayout
+        android:id="@+id/lin_In_audit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@drawable/inaudit"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/toolbar_push_off"
+                android:visibility="gone" />
+
+
+            <ImageView
+                android:id="@+id/img_In_audit"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_gravity="left"
+                android:layout_marginStart="19dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="22dp"
+                android:src="@mipmap/toolbar_back" />
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="34dp">
+
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/asss" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="50px"
+                        android:text="审核中"
+                        android:textColor="@color/Write"
+                        android:textSize="12sp" />
+
+                </FrameLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140px"
+            android:layout_marginEnd="140px"
+            android:gravity="center"
+            android:text="您的商家申请已提交，请等待审核结果，我们将在1-2个工作日内回复"
+            android:textColor="@color/corlor_black"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+
+    <!--审核失败-->
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/lin_Audit_failure"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+      >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@drawable/beijinga"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/toolbar_push_off"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/img_Resubmission"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_gravity="left"
+                android:layout_marginStart="19dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="22dp"
+                android:src="@mipmap/toolbar_back" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="34dp">
+
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/sheheshibai" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="50px"
+                        android:text="审核失败"
+                        android:textColor="@color/Write"
+                        android:textSize="12sp" />
+
+                </FrameLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140px"
+            android:layout_marginEnd="140px"
+            android:gravity="center"
+            android:text="您的商家申请未通过审核，原因如下："
+            android:textColor="@color/corlor_password"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140px"
+            android:layout_marginTop="10px"
+            android:layout_marginEnd="140px"
+            android:gravity="center"
+            android:text="1、营业执照字迹模糊不清"
+            android:textColor="@color/corlor_password"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140px"
+            android:layout_marginTop="10px"
+            android:layout_marginEnd="140px"
+            android:gravity="center"
+            android:text="2、证件信息为虚假资料"
+            android:textColor="@color/corlor_password"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!--重新提交-->
+        <TextView
+            android:id="@+id/text_Audit_failure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="200px"
+            android:background="@drawable/shap_tijiao"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingTop="20px"
+            android:paddingBottom="20px"
+            android:text="重新提交"
+            android:textColor="@color/corlor_order_red"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+
+    <!--审核成功-->
+
+    <LinearLayout
+
+        android:id="@+id/lin_Audit_Success"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@drawable/examine"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/toolbar_push_off"
+                android:visibility="gone" />
+
+
+            <ImageView
+                android:id="@+id/img_Audit_success"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_gravity="left"
+                android:layout_marginStart="19dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="22dp"
+                android:src="@mipmap/toolbar_back" />
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_34">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/assaz" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="50px"
+                        android:text="审核成功"
+                        android:textColor="@color/Write"
+                        android:textSize="12sp" />
+
+                </FrameLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="您的商家申请已通过审核，赶快去添加商品吧！"
+            android:textColor="@color/corlor_black"
+            android:textSize="13sp" />
+
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!--重新提交-->
+        <TextView
+            android:id="@+id/text_add_shop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="200px"
+            android:background="@drawable/shap_tijiao_sucess"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingTop="@dimen/dp_18"
+            android:paddingBottom="@dimen/dp_18"
+            android:text="添加商品"
+            android:textColor="@color/corlor_min"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

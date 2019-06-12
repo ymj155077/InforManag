@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.act.actMe.ActNewsdetails">
+
+
+    <include layout="@layout/toolbar_push_off"/>
+
+
+<LinearLayout
+    android:layout_marginEnd="16dp"
+    android:layout_marginStart="16dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="13dp"
+        android:textColor="@color/shop_corlor"
+        android:textSize="12sp"
+        android:text="公告"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_marginTop="@dimen/dp_10"
+        android:textColor="@color/shop_corlor"
+        android:textSize="10sp"
+        android:text="2019-5-16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:textColor="@color/corlor_text"
+        android:textSize="12sp"
+        android:text="为提高用户对平台的参与感、认同感，同时建立平台与用户良好的合作与发展目标，体现公司的经营理念实现......"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

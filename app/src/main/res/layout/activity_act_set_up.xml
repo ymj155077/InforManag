@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.act.actMe.ActSetUp">
+
+
+    <include layout="@layout/toolbar_push_off"/>
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+
+
+    <LinearLayout
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <TextView
+
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="消息推送"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <Switch
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:background="@color/order_back"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_6"/>
+
+    <LinearLayout
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <TextView
+
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="订单消息"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <Switch
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:background="@color/order_back"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_6"/>
+
+
+
+
+    <LinearLayout
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <TextView
+
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="检查更新"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+
+
+    </LinearLayout>
+
+    <View
+        android:background="@color/order_back"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"/>
+
+
+
+
+    <LinearLayout
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <TextView
+
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="账户与安全"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/img_label"
+            android:layout_width="12dp"
+            android:layout_height="14dp" />
+
+    </LinearLayout>
+
+    <View
+        android:background="@color/order_back"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_6"/>
+
+    <View
+        android:background="@color/order_back"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_6"/>
+    <LinearLayout
+        android:id="@+id/lin_Logout"
+        android:layout_marginTop="57dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <TextView
+android:clickable="false"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="退出登录"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+    </LinearLayout>
+    <View
+        android:background="@color/order_back"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_6"/>
+
+</LinearLayout>
+
+
+</LinearLayout>

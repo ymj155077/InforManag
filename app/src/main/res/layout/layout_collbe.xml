@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:id="@+id/card_view_collbe"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardBackgroundColor="@color/item_bg"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardUseCompatPadding="true"
+    xmlns:app="http://schemas.android.com/tools"
+    app:ignore="NamespaceTypo">
+
+
+    <LinearLayout
+
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<TextView
+
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginBottom="7dp"
+    android:textSize="13sp"
+    android:textColor="@color/back_order"
+    android:layout_gravity="end"
+    android:text="等待买家付款"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+
+
+<LinearLayout
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--android:layout_centerInParent="true"-->
+    <!--animation_img1-->
+    <android.support.v7.widget.CardView
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+
+        android:foreground="?attr/selectableItemBackground"
+   >
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/animation_img1" />
+    </android.support.v7.widget.CardView>
+
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_marginEnd="6dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/item_ti"
+                android:textSize="11sp"
+                android:text="四川新鲜当季水果橘子应季"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="13sp"
+                android:gravity="end"
+                android:text="￥16.80"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginEnd="6dp"
+            android:layout_marginStart="6dp"
+android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/item_ti"
+                android:textSize="11sp"
+                android:text="2241g"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="13sp"
+                android:gravity="end"
+                android:text="X2"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="87dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="87dp"
+            android:layout_marginRight="8dp">
+
+
+
+            <TextView
+                android:textSize="13sp"
+                android:gravity="end"
+                android:text="共两件商品"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:textSize="13sp"
+                android:gravity="end"
+                android:text="合计￥16.80"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+android:layout_marginBottom="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <View
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="1dp"/>
+
+
+            <LinearLayout
+android:background="@drawable/shap_radius"
+                android:layout_marginTop="20dp"
+                android:layout_width="73dp"
+                android:layout_height="26dp"
+               >
+
+                <TextView
+
+                    android:textSize="13sp"
+                    android:gravity="center"
+                    android:text="查看物流"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+
+            </LinearLayout>
+
+
+            <View
+
+                android:layout_width="11dp"
+                android:layout_height="1dp"/>
+
+
+            <LinearLayout
+                android:background="@drawable/shap_radius"
+                android:layout_marginTop="20dp"
+                android:layout_width="73dp"
+                android:layout_height="26dp"
+                >
+
+                <TextView
+
+                    android:textSize="13sp"
+                    android:gravity="center"
+                    android:text="延长收货"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="11dp"
+                android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/shap_radius"
+                android:layout_marginTop="20dp"
+                android:layout_width="73dp"
+                android:layout_height="26dp"
+                android:layout_marginRight="8dp">
+
+                <TextView
+
+                    android:textSize="13sp"
+                    android:gravity="center"
+                    android:text="确认订单"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.v7.widget.CardView>

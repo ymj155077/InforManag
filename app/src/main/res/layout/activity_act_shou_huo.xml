@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.act.actbusiness.ActShouHuo">
+
+
+    <include layout="@layout/toolbar_push_off"/>
+
+
+    <com.sak.ultilviewlib.UltimateRefreshView
+        android:visibility="gone"
+        android:id="@+id/refresh_shouhuo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/rv_shouhuo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/order_back"
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:scrollbars="none" />
+
+
+    </com.sak.ultilviewlib.UltimateRefreshView>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@drawable/list_wu"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/dp_100"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

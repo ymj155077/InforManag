@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondAct">
+
+
+
+<TextView
+    android:textSize="40sp"
+    android:text="第二个及诶按as低价奥斯卡计划的萨克计划的空间撒谎的空间撒谎的空间撒谎的空间撒谎的空间撒谎的"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
